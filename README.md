@@ -1,67 +1,60 @@
 # imola_module_5_spring_boot
 Tasks for Spring Boot module #5 for L2+ mentoring program
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Task 1 - Hello-world application
+# Task 1  --- UPLOADED
+### Hello-world application
+*Cost: 1 points.*
 
-Cost: 1 points.
+- Using https://start.spring.io create a Spring-boot app.
+- Create CommandLineRunner and output 'hello world'.
+- Start your application.
+- Check that spring context is up and there is 'hello world' message in console.
 
-Using https://start.spring.io create a Spring-boot app.
-Create CommandLineRunner and output 'hello world'.
-Start your application.
-Check that spring context is up and there is 'hello world' message in console.
+# Task 2 
+### CRUD REST application
+*Cost: 1 points.*
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Task 2 - CRUD REST application
+- Create app that should support create, read, update and delete operations for some entity
+- Use Spring Data module
+- Don't use Spring Data REST starter
 
-Cost: 1 points.
+# Task 3 
+### CRUD application: security
+*Cost: 1 points.*
 
-Create app that should support create, read, update and delete operations for some entity
-Use Spring Data module
-Don't use Spring Data REST starter
+- Implement authentication and authorization mechanism
+- OAuth2 should be used
+- JWT Token should be used
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Task 3 - CRUD application: security
+# Task 4 (Optional)
+### CRUD application: externalized configuration
+*Cost: 1 points.*
 
-Cost: 1 points.
+- Should support different environments - local, dev, stg, prod
+- Spring profiles
+- Each environment - different db properties
 
-Implement authentication and authorization mechanism
-OAuth2 should be used
-JWT Token should be used
+# Task 5
+### CRUD application: data migrating
+*Cost: 1 points.*
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Task 4 (Optional) - CRUD application: externalized configuration
+- Add tool for migrating data
+- Flyway or Liquibase
 
-Cost: 1 points.
+# Task 6 (Optional) 
+### CRUD application: actuator
+*Cost: 1 points.*
 
-Should support different environments - local, dev, stg, prod
-Spring profiles
-Each environment - different db properties
+- Enable actuator
+- Implement a few custom health indicators
+- Implement a few custom metrics using Prometheus
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Task 5 - CRUD application: data migrating
+# Task 7 
+### CRUD application: testing
+*Cost: 1 points.*
 
-Cost: 1 points.
-
-Add tool for migrating data
-Flyway or Liquibase
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Task 6 (Optional) - CRUD application: actuator
-
-Cost: 1 points.
-
-Enable actuator
-Implement a few custom health indicators
-Implement a few custom metrics using Prometheus
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Task 7 - CRUD application: testing
-
-Cost: 1 points.
-
-In memory db must be used for testing purpose
-Implement repository testing
-Implement unit tests
-Implement tests for RestController using mock mvc
-Implement integration tests
+- In memory db must be used for testing purpose
+- Implement repository testing
+- Implement unit tests
+- Implement tests for RestController using mock mvc
+- Implement integration tests
