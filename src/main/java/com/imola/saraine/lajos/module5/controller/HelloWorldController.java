@@ -1,4 +1,4 @@
-package com.imola.saraine.lajos.module5;
+package com.imola.saraine.lajos.module5.controller;
 
 
 import lombok.extern.slf4j.Slf4j;
