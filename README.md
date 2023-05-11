@@ -23,7 +23,7 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 *Cost: 1 points.*
 
 - Implement authentication and authorization mechanism -- done
-- OAuth2 should be used
+- OAuth2 should be used -- done
 - JWT Token should be used
 
 # Task 4 (Optional)
