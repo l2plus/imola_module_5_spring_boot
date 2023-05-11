@@ -5,6 +5,7 @@ import com.imola.saraine.lajos.module5.model.HeadacheType;
 import com.imola.saraine.lajos.module5.repository.HeadacheRepository;
 import com.imola.saraine.lajos.module5.service.HeadacheService;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -13,6 +14,7 @@ import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @Service
+@Slf4j
 @AllArgsConstructor
 public class HeadacheServiceImpl implements HeadacheService {
 
@@ -25,7 +27,14 @@ public class HeadacheServiceImpl implements HeadacheService {
 
     @Override
     public Headache changeHeadacheStrength(Long id, int strength) {
-        return null;
+        try {
+        Headache original = repository.getReferenceById(id);
+        original.setStrength(strength);
+            return repository.save(original);
+        } catch (Exception e) {
+            log.info("Strength of Headache could not be changed for headache with id: " + id + "Reason: " + e.getMessage());
+            return null;
+        }
     }
 
     @Override

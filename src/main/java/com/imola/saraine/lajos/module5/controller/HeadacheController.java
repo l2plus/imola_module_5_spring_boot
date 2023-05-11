@@ -1,14 +1,11 @@
 package com.imola.saraine.lajos.module5.controller;
 
-
 import com.imola.saraine.lajos.module5.model.Headache;
-import com.imola.saraine.lajos.module5.model.HeadacheType;
 import com.imola.saraine.lajos.module5.service.HeadacheService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -16,6 +13,11 @@ import java.util.List;
 public class HeadacheController {
 
     private final HeadacheService service;
+
+    @GetMapping("/secured")
+    public String checkIfSecurityWorks(){
+        return "Works with selected security profile setting.";
+    }
 
     @GetMapping("/headaches")
     public ResponseEntity<List<Headache>> allHeadaches() {
