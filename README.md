@@ -5,25 +5,25 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 ### Hello-world application
 *Cost: 1 points.*
 
-- Using https://start.spring.io create a Spring-boot app.
-- Create CommandLineRunner and output 'hello world'.
-- Start your application.
-- Check that spring context is up and there is 'hello world' message in console.
+- Using https://start.spring.io create a Spring-boot app. -- done
+- Create CommandLineRunner and output 'hello world'. -- done
+- Start your application.  -- done
+- Check that spring context is up and there is 'hello world' message in console.  -- done
 
 # Task 2 
 ### CRUD REST application
 *Cost: 1 points.*
 
 - Create app that should support create, read, update and delete operations for some entity
-- Use Spring Data module
-- Don't use Spring Data REST starter
+- Use Spring Data module -- done
+- Don't use Spring Data REST starter -- done
 
 # Task 3 
 ### CRUD application: security
 *Cost: 1 points.*
 
-- Implement authentication and authorization mechanism
-- OAuth2 should be used
+- Implement authentication and authorization mechanism -- done
+- OAuth2 should be used -- done
 - JWT Token should be used
 
 # Task 4 (Optional)
@@ -53,8 +53,8 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 ### CRUD application: testing
 *Cost: 1 points.*
 
-- In memory db must be used for testing purpose
+- In memory db must be used for testing purpose - done
 - Implement repository testing
 - Implement unit tests
 - Implement tests for RestController using mock mvc
-- Implement integration tests
+- Implement integration tests -- partial
