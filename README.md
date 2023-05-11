@@ -11,10 +11,10 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 - Check that spring context is up and there is 'hello world' message in console.  -- done
 
 # Task 2 
-### CRUD REST application
+### CRUD REST application -- UPLOADED
 *Cost: 1 points.*
 
-- Create app that should support create, read, update and delete operations for some entity
+- Create app that should support create, read, update and delete operations for some entity -- done
 - Use Spring Data module -- done
 - Don't use Spring Data REST starter -- done
 
@@ -30,8 +30,8 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 ### CRUD application: externalized configuration
 *Cost: 1 points.*
 
-- Should support different environments - local, dev, stg, prod
-- Spring profiles
+- Should support different environments - local, dev, stg, prod -- done (with security profiles instead)
+- Spring profiles -- done
 - Each environment - different db properties
 
 # Task 5
@@ -45,7 +45,7 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 ### CRUD application: actuator
 *Cost: 1 points.*
 
-- Enable actuator
+- Enable actuator -- partial
 - Implement a few custom health indicators
 - Implement a few custom metrics using Prometheus
 
@@ -54,7 +54,7 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 *Cost: 1 points.*
 
 - In memory db must be used for testing purpose - done
-- Implement repository testing
-- Implement unit tests
+- Implement repository testing -- some @DataJpaTest methods implemented to check repository mechanisms -- done
+- Implement unit tests  -- partial
 - Implement tests for RestController using mock mvc
-- Implement integration tests -- partial
+- Implement integration tests 
