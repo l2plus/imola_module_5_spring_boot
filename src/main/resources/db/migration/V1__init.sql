@@ -4,3 +4,4 @@ CREATE TABLE IF NOT EXISTS headache (
     strength INT NOT NULL,
     occurance DATE NOT NULL
 );
+INSERT INTO headache (type, strength, occurance) VALUES ('MIGRAINE', 5, '2023-05-22');
