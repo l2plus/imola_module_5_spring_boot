@@ -18,8 +18,8 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 - Use Spring Data module -- done
 - Don't use Spring Data REST starter -- done
 
-# Task 3 
-### CRUD application: security --- UPLOADED
+# Task 3 --- UPLOADED
+### CRUD application: security 
 *Cost: 1 points.*
 
 - Implement authentication and authorization mechanism -- done
@@ -46,15 +46,15 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 *Cost: 1 points.*
 
 - Enable actuator -- partial
----->  - Implement a few custom health indicators
----->  - Implement a few custom metrics using Prometheus
+- ---->  Implement a few custom health indicators
+- ---->  Implement a few custom metrics using Prometheus
 
-# Task 7 -- PARTIAL
+# Task 7 --- UPLOADED
 ### CRUD application: testing
 *Cost: 1 points.*
 
 - In memory db must be used for testing purpose - done
 - Implement repository testing -- some @DataJpaTest methods implemented to check repository mechanisms -- done
 - Implement unit tests  -- done
-- ----> - Implement tests for RestController using mock mvc
-- ----> - Implement integration tests 
+- Implement tests for RestController using mock mvc -- done
+- Implement integration tests -- done
