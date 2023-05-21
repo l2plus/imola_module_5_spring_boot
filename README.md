@@ -24,30 +24,30 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 
 - Implement authentication and authorization mechanism -- done
 - OAuth2 should be used -- done
-- JWT Token should be used
+----> - JWT Token should be used
 
 # Task 4 (Optional)
-### CRUD application: externalized configuration
+### CRUD application: externalized configuration -- PARTIAL
 *Cost: 1 points.*
 
 - Should support different environments - local, dev, stg, prod -- done (with security profiles instead)
 - Spring profiles -- done
-- Each environment - different db properties
+----> - Each environment - different db properties
 
 # Task 5
-### CRUD application: data migrating
+### CRUD application: data migrating -- UPLOADED
 *Cost: 1 points.*
 
-- Add tool for migrating data
-- Flyway or Liquibase
+- Add tool for migrating data -- done
+- Flyway or Liquibase -- done
 
 # Task 6 (Optional) 
 ### CRUD application: actuator
 *Cost: 1 points.*
 
 - Enable actuator -- partial
-- Implement a few custom health indicators
-- Implement a few custom metrics using Prometheus
+---->  - Implement a few custom health indicators
+---->  - Implement a few custom metrics using Prometheus
 
 # Task 7 
 ### CRUD application: testing
@@ -55,6 +55,6 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 
 - In memory db must be used for testing purpose - done
 - Implement repository testing -- some @DataJpaTest methods implemented to check repository mechanisms -- done
-- Implement unit tests  -- partial
-- Implement tests for RestController using mock mvc
-- Implement integration tests 
+- Implement unit tests  -- done
+----> - Implement tests for RestController using mock mvc
+----> - Implement integration tests 
