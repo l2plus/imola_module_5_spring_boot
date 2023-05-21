@@ -19,20 +19,20 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 - Don't use Spring Data REST starter -- done
 
 # Task 3 
-### CRUD application: security
+### CRUD application: security --- UPLOADED
 *Cost: 1 points.*
 
 - Implement authentication and authorization mechanism -- done
 - OAuth2 should be used -- done
-- ----> - JWT Token should be used
+- JWT Token should be used -- done
 
-# Task 4 (Optional) -- PARTIAL
+# Task 4 (Optional) --- UPLOADED
 ### CRUD application: externalized configuration 
 *Cost: 1 points.*
 
 - Should support different environments - local, dev, stg, prod -- done (with security profiles instead)
 - Spring profiles -- done
-- ----> - Each environment - different db properties
+- Each environment - _different db properties: different security authentication profiles_
 
 # Task 5 -- UPLOADED
 ### CRUD application: data migrating 
