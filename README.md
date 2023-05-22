@@ -45,19 +45,11 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 ### CRUD application: actuator
 *Cost: 1 points.*
 
-<<<<<<< Updated upstream
-- Enable actuator -- partial
-- ---->  Implement a few custom health indicators
-- ---->  Implement a few custom metrics using Prometheus
-
-# Task 7 --- UPLOADED
-=======
 - Enable actuator -- done
 - Implement a few custom health indicators -- done
 - Implement a few custom metrics using Prometheus -- done
 
 # Task 7 -- UPLOADED
->>>>>>> Stashed changes
 ### CRUD application: testing
 *Cost: 1 points.*
 
@@ -65,8 +57,5 @@ Tasks for Spring Boot module #5 for L2+ mentoring program
 - Implement repository testing -- some @DataJpaTest methods implemented to check repository mechanisms -- done
 - Implement unit tests  -- done
 - Implement tests for RestController using mock mvc -- done
-<<<<<<< Updated upstream
 - Implement integration tests -- done
-=======
 - Implement integration tests  -- done
->>>>>>> Stashed changes
